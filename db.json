@@ -1,169 +1,171 @@
-[
-  {
-    "id": 10,
-    "createdAt": "2025-05-06T20:47:38.521+00:00",
-    "updatedAt": "2025-05-11T01:22:11.274+00:00",
-    "userId": 2,
-    "startDate": "2025-05-14",
-    "name": "Plan Modificado",
-    "description": "Ahora incluye snacks",
-    "active": false,
-    "dailyPlans": []
-  },
-  {
-    "id": 12,
-    "createdAt": "2025-05-10T00:44:13.126+00:00",
-    "updatedAt": "2025-05-10T00:44:13.126+00:00",
-    "userId": 2,
-    "startDate": "2025-05-15",
-    "name": "Plan Equilibrado",
-    "description": "Plan semanal con enfoque en macronutrientes balanceados",
-    "active": true,
-    "dailyPlans": [
-      {
-        "id": 26,
-        "weekDay": "MONDAY",
-        "scheduledMeals": [
-          {
-            "id": 15,
-            "recipeId": 10,
-            "timeDay": "BREAKFAST",
-            "plannedFoods": [
-              {
-                "id": 10,
-                "foodId": 5,
-                "amount": 200,
-                "unit": "GRAM"
-              },
-              {
-                "id": 11,
-                "foodId": 8,
-                "amount": 1,
-                "unit": "PIECE"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "recipeId": 12,
-            "timeDay": "LUNCH",
-            "plannedFoods": [
-              {
-                "id": 12,
-                "foodId": 3,
-                "amount": 1,
-                "unit": "CUP"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "weekDay": "TUESDAY",
-        "scheduledMeals": [
-          {
-            "id": 17,
-            "recipeId": 15,
-            "timeDay": "DINNER",
-            "plannedFoods": [
-              {
-                "id": 13,
-                "foodId": 7,
-                "amount": 2,
-                "unit": "TABLESPOON"
-              },
-              {
-                "id": 14,
-                "foodId": 9,
-                "amount": 150,
-                "unit": "GRAM"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "createdAt": "2025-05-10T01:49:27.955+00:00",
-    "updatedAt": "2025-05-10T01:49:27.955+00:00",
-    "userId": 2,
-    "startDate": "2025-06-01",
-    "name": "Desayuno + Snack",
-    "description": "Enfoque en desayuno reforzado y tentempié de media mañana",
-    "active": true,
-    "dailyPlans": [
-      {
-        "id": 28,
-        "weekDay": "WEDNESDAY",
-        "scheduledMeals": [
-          {
-            "id": 18,
-            "recipeId": 20,
-            "timeDay": "BREAKFAST",
-            "plannedFoods": [
-              {
-                "id": 15,
-                "foodId": 11,
-                "amount": 250,
-                "unit": "MILLILITER"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "recipeId": 0,
-            "timeDay": "MIDMORNING",
-            "plannedFoods": [
-              {
-                "id": 16,
-                "foodId": 14,
-                "amount": 30,
-                "unit": "GRAM"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "createdAt": "2025-05-10T01:50:54.920+00:00",
-    "updatedAt": "2025-05-10T01:50:54.920+00:00",
-    "userId": 2,
-    "startDate": "2025-05-20",
-    "name": "Almuerzo Ligero",
-    "description": "Plan de prueba que está inactivo",
-    "active": false,
-    "dailyPlans": [
-      {
-        "id": 29,
-        "weekDay": "FRIDAY",
-        "scheduledMeals": [
-          {
-            "id": 20,
-            "recipeId": 5,
-            "timeDay": "LUNCH",
-            "plannedFoods": [
-              {
-                "id": 17,
-                "foodId": 2,
-                "amount": 1,
-                "unit": "UNIT"
-              },
-              {
-                "id": 18,
-                "foodId": 6,
-                "amount": 100,
-                "unit": "GRAM"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "nutritionalPlans": [
+    {
+      "id": 10,
+      "createdAt": "2025-05-06T20:47:38.521+00:00",
+      "updatedAt": "2025-05-11T01:22:11.274+00:00",
+      "userId": 2,
+      "startDate": "2025-05-14",
+      "name": "Plan Modificado",
+      "description": "Ahora incluye snacks",
+      "active": false,
+      "dailyPlans": []
+    },
+    {
+      "id": 12,
+      "createdAt": "2025-05-10T00:44:13.126+00:00",
+      "updatedAt": "2025-05-10T00:44:13.126+00:00",
+      "userId": 2,
+      "startDate": "2025-05-15",
+      "name": "Plan Equilibrado",
+      "description": "Plan semanal con enfoque en macronutrientes balanceados",
+      "active": true,
+      "dailyPlans": [
+        {
+          "id": 26,
+          "weekDay": "MONDAY",
+          "scheduledMeals": [
+            {
+              "id": 15,
+              "recipeId": 10,
+              "timeDay": "BREAKFAST",
+              "plannedFoods": [
+                {
+                  "id": 10,
+                  "foodId": 5,
+                  "amount": 200,
+                  "unit": "GRAM"
+                },
+                {
+                  "id": 11,
+                  "foodId": 8,
+                  "amount": 1,
+                  "unit": "PIECE"
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "recipeId": 12,
+              "timeDay": "LUNCH",
+              "plannedFoods": [
+                {
+                  "id": 12,
+                  "foodId": 3,
+                  "amount": 1,
+                  "unit": "CUP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "weekDay": "TUESDAY",
+          "scheduledMeals": [
+            {
+              "id": 17,
+              "recipeId": 15,
+              "timeDay": "DINNER",
+              "plannedFoods": [
+                {
+                  "id": 13,
+                  "foodId": 7,
+                  "amount": 2,
+                  "unit": "TABLESPOON"
+                },
+                {
+                  "id": 14,
+                  "foodId": 9,
+                  "amount": 150,
+                  "unit": "GRAM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "createdAt": "2025-05-10T01:49:27.955+00:00",
+      "updatedAt": "2025-05-10T01:49:27.955+00:00",
+      "userId": 2,
+      "startDate": "2025-06-01",
+      "name": "Desayuno + Snack",
+      "description": "Enfoque en desayuno reforzado y tentempié de media mañana",
+      "active": true,
+      "dailyPlans": [
+        {
+          "id": 28,
+          "weekDay": "WEDNESDAY",
+          "scheduledMeals": [
+            {
+              "id": 18,
+              "recipeId": 20,
+              "timeDay": "BREAKFAST",
+              "plannedFoods": [
+                {
+                  "id": 15,
+                  "foodId": 11,
+                  "amount": 250,
+                  "unit": "MILLILITER"
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "recipeId": 0,
+              "timeDay": "MIDMORNING",
+              "plannedFoods": [
+                {
+                  "id": 16,
+                  "foodId": 14,
+                  "amount": 30,
+                  "unit": "GRAM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "createdAt": "2025-05-10T01:50:54.920+00:00",
+      "updatedAt": "2025-05-10T01:50:54.920+00:00",
+      "userId": 2,
+      "startDate": "2025-05-20",
+      "name": "Almuerzo Ligero",
+      "description": "Plan de prueba que está inactivo",
+      "active": false,
+      "dailyPlans": [
+        {
+          "id": 29,
+          "weekDay": "FRIDAY",
+          "scheduledMeals": [
+            {
+              "id": 20,
+              "recipeId": 5,
+              "timeDay": "LUNCH",
+              "plannedFoods": [
+                {
+                  "id": 17,
+                  "foodId": 2,
+                  "amount": 1,
+                  "unit": "UNIT"
+                },
+                {
+                  "id": 18,
+                  "foodId": 6,
+                  "amount": 100,
+                  "unit": "GRAM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
