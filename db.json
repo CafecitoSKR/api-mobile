@@ -167,5 +167,103 @@
         }
       ]
     }
+  ],
+  "nutricionistas": [
+    {
+      "id": 1,
+      "usuario": "nutri_maria",
+      "contrasena": "securePass123",
+      "numero_certificado": "NUT12345",
+      "especialidad": "Nutrición Deportiva",
+      "correo": "maria.nutri@example.com",
+      "telefono": "+5491123456789",
+      "direccion": {
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "redes_sociales": {
+        "instagram": "@nutri.maria",
+        "linkedin": "https://linkedin.com/in/nutri-maria"
+      },
+      "pacientes": [
+        {
+          "id": 101,
+          "nombre": "Juan",
+          "apellido": "Pérez",
+          "fecha_nacimiento": "1990-04-15",
+          "genero": "Masculino",
+          "alergias": ["Lácteos"],
+          "preferencias_alimenticias": ["Bajo en carbohidratos"],
+          "seguimiento": {
+            "peso_kg": 82,
+            "altura_cm": 175,
+            "imc": 26.8,
+            "fecha_ultimo_control": "2025-06-10"
+          },
+          "plan_asignado_actual": 1,
+          "historial_planes": [
+            {
+              "plan_id": 1,
+              "fecha_asignacion": "2025-06-01",
+              "comentarios": "Plan de inicio para bajar de peso",
+              "estado": "finalizado",
+              "objetivo": "Bajar 5 kg en 1 mes"
+            },
+            {
+              "plan_id": 2,
+              "fecha_asignacion": "2025-06-15",
+              "comentarios": "Cambio a plan vegano por preferencia del paciente",
+              "estado": "activo",
+              "objetivo": "Mejorar energía general"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "nombre": "Lucía",
+          "apellido": "Gómez",
+          "fecha_nacimiento": "1985-11-02",
+          "genero": "Femenino",
+          "alergias": [],
+          "preferencias_alimenticias": ["Vegetariana"],
+          "seguimiento": {
+            "peso_kg": 60,
+            "altura_cm": 160,
+            "imc": 23.4,
+            "fecha_ultimo_control": "2025-06-12"
+          },
+          "plan_asignado_actual": 2,
+          "historial_planes": [
+            {
+              "plan_id": 2,
+              "fecha_asignacion": "2025-06-05",
+              "comentarios": "Primer plan post-evaluación inicial",
+              "estado": "activo",
+              "objetivo": "Mantener masa muscular"
+            }
+          ]
+        }
+      ],
+      "planes_personalizados": [
+        {
+          "id": 1,
+          "nombre": "Plan Básico",
+          "comidas": {
+            "desayuno": "Avena con banana y leche",
+            "almuerzo": "Pollo a la plancha con arroz integral y ensalada",
+            "cena": "Sopa de vegetales y pan integral"
+          }
+        },
+        {
+          "id": 2,
+          "nombre": "Plan Vegano",
+          "comidas": {
+            "desayuno": "Smoothie de frutas y semillas",
+            "almuerzo": "Tofu con quinoa y vegetales salteados",
+            "cena": "Ensalada de legumbres y pan sin gluten"
+          }
+        }
+      ]
+    }
   ]
 }
